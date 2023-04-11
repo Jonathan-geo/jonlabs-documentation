@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "Blaze Advisor: Instalação e Configuração",
+      "title": "BLAZE ADVISOR",
+      "description": "Um breve tutorial de instalação e configuração do Blaze Advisor.",
+      "tags": ["Blaze", "Tutorial"],
+      "image": {
+        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "alt": "Quick Setup",
+        "linkTo": "https://github.com"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🧰 EXTENDABLE LAYOUT",
+      "title": "Add more sections!",
+      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
+      "tags": ["Custom Sections", "Easy-2-Use"],
+      "image": {
+        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Visit on Github",
+    "url": "https://github.com"
+  }
+}

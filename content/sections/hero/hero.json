@@ -1,0 +1,16 @@
+{
+  "heroPhoto": {
+    "src": "../../images/fotoPerfil.jpg",
+    "alt": "Its Me"
+  },
+  "subtitle": {
+    "prefix": "Bem vindo ao meu cantinho digital",
+    "highlight": "",
+    "suffix": "."
+  },
+  "description": "Espero poder compartilhar com você um pouquinho do meu trabalho e, claro, criar uma rede de amigos que estão dispostos a compartilhar conhecimento.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github"],
+    "showIcons": true
+  }
+}

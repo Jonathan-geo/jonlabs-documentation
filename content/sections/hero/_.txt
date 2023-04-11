@@ -1,0 +1,22 @@
+{
+  "intro": "Olá, pessoal!",
+  "heroPhoto": {
+    "src": "../../images/fotoPerfil.jpg",
+    "alt": "Its Me"
+  },
+  "image": {
+    "src": "../../images/jon-lab-smile-pixel.png",
+    "alt": "Smile Pixel"
+  },
+  "title": "Jon Labs.",
+  "subtitle": {
+    "prefix": "Bem vindo ao meu ",
+    "highlight": "cantinho",
+    "suffix": " digital."
+  },
+  "description": "Espero poder compartilhar com você um pouquinho do meu trabalho e, claro, criar uma rede de amigos que estão dispostos a compartilhar conhecimento.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}

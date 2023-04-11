@@ -1,0 +1,46 @@
+{
+  "name": "jonlabs-documentation",
+  "version": "1.0.0",
+  "description": "A jonlabs documentation website.",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^5.0.1",
+    "gatsby-theme-portfolio-minimal": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "author": "Jonathan C. L. Domingos <jonathan.geotecs@gmail.com>",
+  "license": "0BSD",
+  "starter-name": "jonlabs-documentation",
+  "homepage": "https://github.com/Jonathan-geo/jonlabs-documentation#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jonathan-geo/jonlabs-documentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jonathan-geo/jonlabs-documentation/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ],
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
