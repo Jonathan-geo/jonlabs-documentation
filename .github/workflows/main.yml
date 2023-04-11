@@ -1,17 +1,20 @@
-name: Gatsby Publish
+name: jonlabs-documentation
 
 on:
   push:
-    branches:
-      - dev
+    branches: dev
+
+env:
+  JONLABSECRET: ${{ secrets.JONLABSECRET }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
-        with:
-          access-token: ${{ secrets.JONLABSECRET }}
-          deploy-branch: gh-pages
-          gatsby-args: --prefix-paths
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          npm install
+      - name: Deploy
+        run: npm run deploy:ci
