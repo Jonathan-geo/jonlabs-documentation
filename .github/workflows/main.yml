@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: GitHub Config
+        run: |
+          git config --global user.email "jonathan.geotecs@gmail.com"
+          git config --global user.name "Jonathan-geo"
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install dependencies
