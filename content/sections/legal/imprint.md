@@ -4,12 +4,12 @@ sectionId: imprint
 
 #### Information pursuant to § 5 TMG
 
-YOURNAME<br />
-YOURSTREET<br />
-YOURCITY<br />
-YOURCOUNTRY
+Jonatan C. L. Domingos<br />
+Avenida Doná Blandina Ignes Júlio<br />
+Osasco/SP<br />
+Brasil
 
-E-Mail Address: <u>YOURMAIL@DOMAIN.COM</u>
+E-Mail Address: <u>jonathan.geotecs@gmail.com</u>
 
 ---
 

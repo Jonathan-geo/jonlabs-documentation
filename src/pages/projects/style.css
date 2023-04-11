@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+  
+h1 {
+    color: #fff;
+    text-align: center;
+}
+  

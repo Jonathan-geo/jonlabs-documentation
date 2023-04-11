@@ -20,7 +20,7 @@
     "navigation": {
       "header": [
         { "label": "Publicações", "url": "/articles" },
-        { "label": "Documentos", "url": "/projects/test" }
+        { "label": "Projetos", "url": "/projects/test" }
       ],
       "ctaButton": {
         "openNewTab": true,

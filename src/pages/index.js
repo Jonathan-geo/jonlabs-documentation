@@ -10,12 +10,19 @@ import {
 export default function IndexPage() {
   return (
     <>
+      
       <Seo title="JONLAB" />
       
       <Page useSplashScreenAnimation>
-        <HeroSection sectionId="hero"/>
-        <AboutSection sectionId="about" heading="Sobre o projeto"/>
-        <ProjectsSection sectionId="projects" heading="Ultimas plublicações"/>
+
+        <div style={{marginBottom: '-8%', marginTop: '-8%'}}>
+          <HeroSection sectionId="hero"/>
+        </div>
+        
+        <div style={{marginBottom: '-8%'}}>
+          <AboutSection sectionId="about" heading="Ultimas Plublicações"/>
+        </div>
+      
       </Page>
     </>
   );
