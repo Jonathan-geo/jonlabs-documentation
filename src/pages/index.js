@@ -15,7 +15,7 @@ export default function IndexPage() {
       
       <Page useSplashScreenAnimation>
 
-        <div style={{marginBottom: '-8%', marginTop: '-8%'}}>
+        <div style={{marginBottom: '-8%', marginTop: '-4%'}}>
           <HeroSection sectionId="hero"/>
         </div>
         

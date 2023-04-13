@@ -7,7 +7,7 @@ banner:
   alt: "blaze-logo"
   caption: 'Photo by Jonathan Domingos'
 categories:
-  - "Blaze"
+  - "BLAZE"
   - "FICO"
 keywords:
   - "Blaze"
@@ -40,6 +40,7 @@ button:hover {
 
 img {
     object-fit: none !important;
+	background-color: white !important;
     /* box-sizing: unset !important; */
 }
 

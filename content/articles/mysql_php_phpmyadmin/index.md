@@ -7,7 +7,6 @@ banner:
   alt: "python-logo"
   caption: 'Photo by Jonathan Domingos'
 categories:
-  - "PHP"
   - "SQL"
 keywords:
   - "PHP"
@@ -23,11 +22,30 @@ button {
 }
 
 button:hover {
-	border:none;
-	background-color: #6c757d;
-	color: black;
-	cursor:pointer;
-	border-radius: 8px;
+    border:none;
+    background-color: #6c757d;
+    color: black;
+    cursor:pointer;
+    border-radius: 8px;
+}
+
+.destaques {
+    margin-left: 50px;
+}
+
+.barra-destaques {
+    background-color: #6c757d;
+    border-radius: 2px;
+}
+
+img {
+    object-fit: none !important;
+    background-color: white !important;
+    /* box-sizing: unset !important; */
+}
+
+* {
+    box-sizing: unset !important;
 }
 </style>
 
